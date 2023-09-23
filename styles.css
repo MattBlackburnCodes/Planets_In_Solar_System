@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Alien';
+  src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url(../images/space_planets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    font-family: 'Alien', 'Times New Roman', Times, serif;
+  }
+  h1 {
+    font-family: 'Alien', 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: rgb(255,255,255);
+    text-shadow: 2px 2px 4px #000000;
+  }
+  caption {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: orange;
+    opacity: .9;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    opacity: .8;
+
+  }
+  
+  td, th {
+    border: 1px solid black;
+    padding: 10px 20px;
+    
+  }
+  
+  th {
+    background-color: lightblue;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: lightblue;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+  }
+  
+  caption {
+    padding: 10px;
+  }
+  
+  footer{
+    background-color: orange;
+    opacity: .9;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0,0,0);
+    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
